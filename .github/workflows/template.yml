@@ -101,7 +101,7 @@ jobs:
             echo "Testing merge using recursive strategy, accepting upstream changes without committing"
             if ! git merge -s recursive -Xtheirs --commit styles-ref
             then
-
+              git push
               # Remove "deleted by us, unmerged" files from the staging area.
               # these are the files that were removed from the lesson
               # but are still present in the carpentries/styles repo
