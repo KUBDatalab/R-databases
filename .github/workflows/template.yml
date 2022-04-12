@@ -85,8 +85,8 @@ jobs:
             ref="gh-pages"
           fi
 
-          git config --global user.email "team@carpentries.org"
-          git config --global user.name "The Carpentries Bot"
+          git config --global user.email "kubdatalab@kb.dk"
+          git config --global user.name "KUB-Datalab-bot"
 
           git remote add styles https://github.com/KUBDatalab/styles.git
           git fetch styles $ref:styles-ref
