@@ -83,21 +83,6 @@ it is easy for people who have been using these lessons for a while
 to forget how impenetrable some of this material can be,
 so fresh eyes are always welcome.
 
-## What *Not* to Contribute
-
-Our lessons already contain more material than we can cover in a typical workshop,
-so we are usually *not* looking for more concepts or tools to add to them.
-As a rule,
-if you want to introduce a new idea,
-you must (a) estimate how long it will take to teach
-and (b) explain what you would take out to make room for it.
-The first encourages contributors to be honest about requirements;
-the second, to think hard about priorities.
-
-We are also not looking for exercises or other material that will only run on one platform.
-Our workshops typically contain a mixture of Windows, macOS, and Linux users;
-in order to be usable,
-our lessons must run equally well on all three.
 
 ## Using GitHub
 
@@ -133,7 +118,7 @@ happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][email].
 
-[email]: mailto:team@carpentries.org
+[email]: mailto:kubdatalab@kb.dk
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
 [dc-lessons]: http://datacarpentry.org/lessons/
 [dc-site]: http://datacarpentry.org/
