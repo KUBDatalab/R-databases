@@ -83,7 +83,10 @@ it is easy for people who have been using these lessons for a while
 to forget how impenetrable some of this material can be,
 so fresh eyes are always welcome.
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 5757c1cf280aea16a088490d1f84b03d377dade4
 ## Using GitHub
 
 If you choose to contribute via GitHub, you may want to look at

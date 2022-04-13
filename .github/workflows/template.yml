@@ -6,7 +6,11 @@ on:
 jobs:
   check-template:
     name: ${{ matrix.lesson-name }} (${{ matrix.os-name }})
+<<<<<<< HEAD
+    if: github.repository == 'kubdatalab/styles'
+=======
     if: github.repository == 'KUBDatalab/styles'
+>>>>>>> 5757c1cf280aea16a088490d1f84b03d377dade4
     runs-on: ${{ matrix.os }}
     continue-on-error: ${{ matrix.experimental }}
     strategy:
