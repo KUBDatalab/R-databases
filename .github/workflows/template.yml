@@ -6,13 +6,17 @@ on:
 jobs:
   check-template:
     name: ${{ matrix.lesson-name }} (${{ matrix.os-name }})
+<<<<<<< HEAD
     if: github.repository == 'kubdatalab/styles'
+=======
+    if: github.repository == 'KUBDatalab/styles'
+>>>>>>> 5757c1cf280aea16a088490d1f84b03d377dade4
     runs-on: ${{ matrix.os }}
     continue-on-error: ${{ matrix.experimental }}
     strategy:
       fail-fast: false
       matrix:
-        lesson: [swcarpentry/shell-novice, datacarpentry/r-intro-geospatial, librarycarpentry/lc-git]
+        lesson: [KUBDatalab/time-and-dates, KUBDatalab/r-intro-geospatial, KUBDatalab/lc-git]
         os: [ubuntu-20.04, macos-latest, windows-latest]
         experimental: [false]
         include:
@@ -22,18 +26,18 @@ jobs:
             os-name: macOS
           - os: windows-latest
             os-name: Windows
-          - lesson: swcarpentry/shell-novice
-            lesson-name: (SWC) Shell novice
-          - lesson: datacarpentry/r-intro-geospatial
+          - lesson: KUBDatalab/time-and-dates
+            lesson-name: (SWC) Shell novice test time and dates
+          - lesson: KUBDatalab/r-intro-geospatial
             lesson-name: (DC) R Intro Geospatial
-          - lesson: librarycarpentry/lc-git
+          - lesson: KUBDatalab/lc-git
             lesson-name: (LC) Intro to Git
-          - lesson: datacarpentry/astronomy-python
+          - lesson: KUBDatalab/astronomy-python
             lesson-name: (DC) Foundations of Astronomical Data Science
             experimental: true
             os: ubuntu-20.04
             os-name: Linux
-          - lesson: carpentries/lesson-example
+          - lesson: KUBDatalab/lesson-example
             lesson-name: (CP) Lesson Example
             experimental: false
             os: ubuntu-20.04
@@ -74,7 +78,7 @@ jobs:
           path: lesson
           fetch-depth: 0
 
-      - name: Sync lesson with carpentries/styles
+      - name: Sync lesson with KUBDatalab/styles
         working-directory: lesson
         run: |
           echo "::group::Fetch Styles"
@@ -88,7 +92,7 @@ jobs:
           git config --global user.email "team@carpentries.org"
           git config --global user.name "The Carpentries Bot"
 
-          git remote add styles https://github.com/carpentries/styles.git
+          git remote add styles https://github.com/KUBDatalab/styles.git
           git fetch styles $ref:styles-ref
           echo "::endgroup::"
           echo "::group::Synchronize Styles"
@@ -119,7 +123,7 @@ jobs:
             fi
 
             echo "Committing changes"
-            git commit -m "Sync lesson with carpentries/styles"
+            git commit -m "Sync lesson with KUBDatalab/styles"
           fi
           echo "::endgroup::"
 

@@ -83,6 +83,10 @@ it is easy for people who have been using these lessons for a while
 to forget how impenetrable some of this material can be,
 so fresh eyes are always welcome.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5757c1cf280aea16a088490d1f84b03d377dade4
 ## Using GitHub
 
 If you choose to contribute via GitHub, you may want to look at
@@ -117,7 +121,7 @@ happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][email].
 
-[email]: mailto:team@carpentries.org
+[email]: mailto:kubdatalab@kb.dk
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
 [dc-lessons]: http://datacarpentry.org/lessons/
 [dc-site]: http://datacarpentry.org/

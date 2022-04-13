@@ -9,7 +9,12 @@
 # kd: KUB Datalab
 # cp: Carpentries (to use for instructor traning for instance)
 # incubator: Carpentries Incubator
+<<<<<<< HEAD
 carpentry: "kd"
+=======
+# kd: KUB Datalab
+carpentry: "swc"
+>>>>>>> 5757c1cf280aea16a088490d1f84b03d377dade4
 
 # Overall title for pages.
 title: "Lesson Title"
@@ -32,12 +37,12 @@ kind: "lesson"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-email: "team@carpentries.org"
+email: "kubdatalab@kb.dk"
 
 # Sites.
 coc: "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html"
 amy_site: "https://amy.carpentries.org/"
-carpentries_github: "https://github.com/carpentries"
+carpentries_github: "https://github.com/KUBDatalab"
 carpentries_pages: "https://carpentries.github.io"
 carpentries_site: "https://carpentries.org/"
 dc_site: "https://datacarpentry.org"
