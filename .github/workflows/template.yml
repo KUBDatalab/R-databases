@@ -89,8 +89,8 @@ jobs:
             ref="gh-pages"
           fi
 
-          git config --global user.email "team@carpentries.org"
-          git config --global user.name "The Carpentries Bot"
+          git config --global user.email "kubdatalab@kb.dk"
+          git config --global user.name "KUB-Datalab-bot"
 
           git remote add styles https://github.com/KUBDatalab/styles.git
           git fetch styles $ref:styles-ref
@@ -105,7 +105,6 @@ jobs:
             echo "Testing merge using recursive strategy, accepting upstream changes without committing"
             if ! git merge -s recursive -Xtheirs --no-commit styles-ref
             then
-
               # Remove "deleted by us, unmerged" files from the staging area.
               # these are the files that were removed from the lesson
               # but are still present in the carpentries/styles repo
