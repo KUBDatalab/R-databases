@@ -6,7 +6,7 @@ on:
 jobs:
   check-template:
     name: ${{ matrix.lesson-name }} (${{ matrix.os-name }})
-    if: github.repository == 'carpentries/styles'
+    if: github.repository == 'kubdatalab/styles'
     runs-on: ${{ matrix.os }}
     continue-on-error: ${{ matrix.experimental }}
     strategy:

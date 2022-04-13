@@ -2,13 +2,14 @@
 # Values for this lesson.
 #------------------------------------------------------------
 
-# Which carpentry is this ("swc", "dc", "lc", or "cp")?
+# Which carpentry is this ("swc", "dc", "lc", "kd", or "cp")?
 # swc: Software Carpentry
 # dc: Data Carpentry
 # lc: Library Carpentry
+# kd: KUB Datalab
 # cp: Carpentries (to use for instructor traning for instance)
 # incubator: Carpentries Incubator
-carpentry: "swc"
+carpentry: "kd"
 
 # Overall title for pages.
 title: "Lesson Title"
